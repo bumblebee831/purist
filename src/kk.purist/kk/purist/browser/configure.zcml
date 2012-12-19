@@ -1,0 +1,64 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="kk.purist">
+
+  <!-- 'purist' Zope 3 browser layer
+    Register views, viewlets and resources for this layer to make sure
+    they only apply to the 'purist' theme.
+    You can also use this layer to override default Plone browser views
+    and viewlets only within the 'purist' theme.
+  -->
+  <interface
+      interface=".interfaces.IThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="purist"
+      />
+  
+  <browser:viewlet
+      name="purist.flashheader"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      layer=".interfaces.IThemeSpecific"
+      template="templates/flashheader.pt"
+      permission="zope2.View"
+      />
+
+   <browser:viewlet
+      name="plone.footer"
+      for="*"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      template="templates/footer.pt"
+      layer=".interfaces.IThemeSpecific"
+      permission="zope.Public"
+      />
+
+   <browser:viewlet
+      name="plone.colophon"
+      for="*"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      layer=".interfaces.IThemeSpecific"
+      template="templates/colophon.pt"
+      permission="zope.Public"
+      />
+
+  <!-- Zope 3 browser resources -->
+
+  <browser:resourceDirectory
+      name="kk.purist.images"
+      directory="images"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+  <browser:resourceDirectory
+      name="kk.purist.templates"
+      directory="templates"
+      layer=".interfaces.IThemeSpecific"
+      />
+	
+  <browser:resourceDirectory
+      name="kk.purist.stylesheets"
+      directory="stylesheets"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+</configure>

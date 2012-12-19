@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- This file holds the setup configuration of the viewlet managers
+     for the "purist" skin.
+     -->
+
+	<object>
+	  <order manager="plone.portalheader" skinname="purist" based-on="Plone Classic Theme">
+	    <viewlet name="purist.flashheader" insert-after="plone.logo" />
+	  </order>
+
+	  <hidden manager="plone.portalheader" skinname="purist">
+	    <viewlet name="plone.site_actions" />
+	    <viewlet name="plone.personal_bar" />
+	    <viewlet name="plone.searchbox" />
+	    <viewlet name="plone.logo" />
+	  </hidden>
+
+	  <hidden manager="plone.portalfooter" skinname="purist">
+	    <viewlet name="plone.site_actions" />
+	  </hidden>
+
+	</object>

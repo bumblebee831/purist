@@ -1,0 +1,27 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      xml:lang="en" lang="en"
+      i18n:domain="plone">
+  <body>
+  <div id="portal-colophon" metal:define-macro="colophon" i18n:domain="plone">
+  <metal:slot define-slot="colophon" />
+  <ul>
+	<li><a href="" tal:attributes="href string:${here/portal_url}/front-page">Home</a></li> &bull;
+	<li><a href="" tal:attributes="href string:${here/portal_url}/cafe/">Cafe</a></li> &bull;
+	<li><a href="" tal:attributes="href string:${here/portal_url}/tapas/">Tapas</a></li> &bull;
+	<li><a href="" tal:attributes="href string:${here/portal_url}/cocktails/">Cocktails</a></li> &bull;
+	<li><a href="" tal:attributes="href string:${here/portal_url}/spirits/">Spirits</a></li> &bull;
+	<li><a href="" tal:attributes="href string:${here/portal_url}/weine/">Weine</a></li> &bull;
+	<li><a href="" tal:attributes="href string:${here/portal_url}/catering/">Catering</a></li> &bull;
+	<li><a href="" tal:attributes="href string:${here/portal_url}/support/">Support</a></li> &bull;
+	<li><a href="" tal:attributes="href string:${here/portal_url}/events/">Events</a></li> &bull;
+	<li><a href="" tal:attributes="href string:${here/portal_url}/news/">News</a></li> &bull;
+	<li><a href="" tal:attributes="href string:${here/portal_url}/kontakt/">Kontakt</a></li> &bull; 
+	<li><a href="http://maps.google.de/maps?f=q&hl=de&geocode=&q=Volkhartstr.12,+86152+Augsburg&sll=51.151786,10.415039&sspn=8.865595,15.46875&ie=UTF8&z=14&iwloc=addr&ll=48.378259,10.894575&source=embed">Anfahrt</a></li> &bull; 
+	<li><a href="" tal:attributes="href string:${here/portal_url}/impressum/">Impressum</a></li>
+  </ul>
+  </div>
+  </body>
+</html>

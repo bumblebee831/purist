@@ -1,0 +1,10 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+i18n:domain="plone">
+<body> 
+<div class="footer-wrapper"> 
+<div id="portal-footer" metal:define-macro="portal_footer" i18n:domain="plone"> &copy; purist 2010 &bull; café &bull; tapas &bull; cocktailbar &bull; Tel. 0821-74 77 133 &bull; <a href="mailto:info@purist-augsburg.de">info(at)purist-augsburg.de</a> &bull; Inhaber: Matthias Möschl
+</div>
+<div class="visualClear"><!-- --></div>
+</div>
+</body>
+</html>

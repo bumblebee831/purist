@@ -1,0 +1,17 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xml:lang="en-US" lang="en-US"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="">
+	<body>
+		<div id="flash-wrapper">
+			<script type="text/javascript">
+				var so = new SWFObject("header.swf", "header", "800","390", "9");	
+				so.write("flash-wrapper");
+				so.addParam("scale", "noscale");
+				so.addParam("wmode", "transparent");
+			</script>
+		</div>
+	</body>
+</html>
