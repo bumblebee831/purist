@@ -2,7 +2,7 @@
 i18n:domain="plone">
 <body> 
 <div class="footer-wrapper"> 
-<div id="portal-footer" metal:define-macro="portal_footer" i18n:domain="plone"> &copy; purist 2010 &bull; café &bull; tapas &bull; cocktailbar &bull; Tel. 0821-74 77 133 &bull; <a href="mailto:info@purist-augsburg.de">info(at)purist-augsburg.de</a> &bull; Inhaber: Matthias Möschl <a href="https://www.facebook.com/pages/Purist/109952469164588"><img src="++resource++kk.purist.images/fb.png" width="25" height="25" alt="Purist auf Facebook" /></a>
+<div id="portal-footer" metal:define-macro="portal_footer" i18n:domain="plone"> &copy; purist 2010 &bull; café &bull; tapas &bull; cocktailbar &bull; Tel. 0821-74 77 133 &bull; <a href="mailto:info@purist-augsburg.de">info(at)purist-augsburg.de</a> &bull; Inhaber: Matthias Möschl &bull; <a href="https://www.facebook.com/pages/Purist/109952469164588"><img src="++resource++kk.purist.images/fb.png" width="25" height="25" alt="Purist auf Facebook" /></a>
 </div>
 <div class="visualClear"><!-- --></div>
 </div>
